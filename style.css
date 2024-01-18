@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 580px;
+    height: 415px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    border: none;
+    box-shadow: 4px 15px 40px rgba(64, 121, 243, 0.267); 
+}
+.container{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.main{
+    width: 50%;
+    background-color: #283cee;
+    border-radius: 15px;
+    line-height: 50px;
+    text-align: center;
+}
+.main h3{
+    padding: 20px;
+    color: rgb(212, 212, 212);
+}
+.main button{
+    border-radius:75px;
+    height: 150px;
+    width: 150px;
+    background-color: #562bf3f5;
+    border: none;
+    color:  rgb(194, 194, 194);
+    background: linear-gradient(to bottom, #1308a7, #1e35fdb9);
+}
+.main h1{
+    font-size: 45px;
+    color: white;
+    font-weight: 800;
+}
+.main h2{
+    margin: 10px;
+    color: white;
+    font-weight: 700;
+}
+.main p{
+    line-height: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 14px;
+    color:rgb(212, 212, 212) ;
+}
+.content{
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.content h3{
+    margin-top: 32px;
+    padding-left: 6px;
+    padding-bottom: 18px;
+    font-weight: 800;
+
+}
+.content p{
+    font-weight:bold;
+}
+.content > div {
+    margin: 7px;
+  }
+.content h3{ 
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+.content div{
+    display: flex;
+    padding: auto;
+}
+.content .box-1{
+    background-color: rgba(255, 0, 0, 0.151);
+    border-radius: 7px;
+    padding: 12px;
+}
+.content .box-1 svg{
+    margin-right:9px ;
+}
+.content .box-1 h4{
+    color: red;
+}
+.content .box-1 p{
+    padding-left: 70px;
+}
+.content .box-2{
+    background-color: rgba(255, 255, 0, 0.24);
+    border-radius: 7px;
+    padding: 12px;
+}
+.content .box-2 svg{
+    margin-right:9px ;
+}
+.content .box-2 h4{
+    color: orange;
+}
+.content .box-2 p{
+    padding-left: 74px;
+}
+.content .box-3{
+    background-color: rgba(0, 139, 139, 0.185);
+    border-radius: 7px;
+    padding: 12px;
+}
+.content .box-3 svg{
+    margin-right:9px ;
+}
+.content .box-3 h4{
+    color: darkcyan;
+}
+.content .box-3 p{
+    padding-left: 87px;
+}
+.content .box-4{
+    background-color: rgba(0, 0, 139, 0.13);
+    border-radius: 7px;
+    padding: 12px;
+}
+.content .box-4 svg{
+    margin-right:9px ;
+}
+.content .box-4 h4{
+    color: darkblue;
+}
+.content .box-4 p{
+    padding-left: 88px;
+}
+.content button{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 13px 80px 13px 80px;
+    border-radius: 40px;
+    margin-left: 19px;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+}
+.attribution{
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+     
+
